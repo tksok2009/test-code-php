@@ -1,106 +1,40 @@
-#test code for php
-
-	phpのテストコード、およびbitbucketの利用の方法を模索する
-
-	課題へのアプローチの仕方。　
-
-	課題を閉じる場合 fixesじゃないと　駄目？
+# this repository is test program of the php
 
 
-	-----------------------------------------------------------------------------------
-	ブランチでdocumenterを作成してみる
+## document
 
-		1
-		ローカル、追跡、リモート　それぞれのブランチの違いについて
-		https://www.kaeruspoon.net/articles/1078
+[php right the way](http://ja.phptherightway.com/)
 
-			step 1 ローカル、リモート共にブランチを切る
+[php manual](https://secure.php.net/manual/ja/index.php)
 
-						local -> branch documenter
-
-			step 2 local ->> git checkout documeter
-
-			step 3 いつもどおり commit までして
-
-				git push -u origin documenter　でプッシュ
+[php-fig](http://www.php-fig.org/)
 
 
-			※課題への関連づけ失敗したので確認
-			https://confluence.atlassian.co.jp/pages/viewpage.action?pageId=25133102
 
-			課題番号を後半に打てという　お話ですな。
+## awesome php repositry
 
-				***コメントして**　ref #3
-
-				間違えた #3だったわ。
-				
-
-		2 プルリクする
+[awsome-php](https://github.com/ziadoz/awesome-php)
 
 
-		3 マージする
 
-
-		4 マージ後の処理
-
-			git checkout masterして
-			git pullでリモートと同期するが
-
-				[ ] このままdocumenterをクローズいなければコンフリクトしてくる？
-					-> 同ファイルを編集して、masterでも編集すればコンフリクトしますね。
-
-
-		5 マージ後にmasterで変更プッシュして、documenterにブランチを変えてみると・・・
-
-			当たり前だが、git checkout documenterをすると、この文章自体がmaterで変更する前のものに
-			戻りますね。
-
-			これうまいこと　こまめにブランチ切るか、課題との組み合わせで段階わけするかとか
-				[ ] もしくはタグを利用するか？
-
-	-----------------------------------------------------------------------------------
-
-	タグ付けを利用する。
-
-	あとで戻したりするにも便利みたいですね。
-
-	git add .
-	git commit -m "****"
-	git tag **tagname*
-	git push -u orgin master
-
-	リモートに反映されてない。
-	http://qiita.com/runamoon@github/items/711c8fc7bfbf7e2ce3cf
-
-	git push origin --tags
-	これですべてのタグをリモートに反映
-
-
-	
+## test program
 
 
 
 
-	-----------------------------------------------------------------------------------
+## how programing php style
 
-	commit時の課題へのひも付けのメリット
+recent php programing style is several pattern.
 
-		プルリクしたコメントが蓄積して本文に入る。
-		
-		
+- 1 most pattern use flamework.
+- 2 other than that pattern is select use library .
+- 3 last case is scrach programing.
 
-
-
-
+please select how to php program style on a scale and production style.
 
 
 
 
-
-
-
-
-		
 
 
 
