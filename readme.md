@@ -19,6 +19,15 @@
 
 ## test program
 
+### scratchphp
+classpatern.php , namespace.php
+ 
+
+### use_library
+- refs #1 / autoloader with use composer
+- refs #2 / router
+- refs #3 / ajax test with use 
+
 
 
 
