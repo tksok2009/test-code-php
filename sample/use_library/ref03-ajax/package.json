@@ -1,0 +1,17 @@
+{
+  "name": "testajax",
+  "version": "1.0.0",
+  "description": "testajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "toikin",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.15"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "tksok2009/php_ajax_test",
+    "description": "ajaxtest",
+    "type": "test",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "toikin",
+            "email": "tksok2009@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
