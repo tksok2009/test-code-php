@@ -1,5 +1,5 @@
 {
     "require-dev": {
-        "composer require phpdocumentor/phpdocumentor": "2.8.5"
+        "phpdocumentor/phpdocumentor": "2.*"
     }
 }
